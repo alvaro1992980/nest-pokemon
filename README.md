@@ -18,6 +18,10 @@
   docker-compose up -d
   ```
 
+  5. Load seed data on database
+  ```
+  http://localhost:3000/seed
+  ```
   ## Used Stack
     * MongoDB
     * NestJs 
