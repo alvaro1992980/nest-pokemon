@@ -17,6 +17,14 @@
   ```
   docker-compose up -d
   ```
+  5. Clone the file ```.env.template``` and rename the copy to ```.env```
+
+  6. Fill the environment variables into ```.env```
+
+  7. Execute the application 
+  ```
+  yarn start:dev
+  ```
 
   5. Load seed data on database
   ```
