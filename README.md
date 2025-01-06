@@ -29,6 +29,14 @@
   ```
   http://localhost:3000/seed
   ```
+
+  # Production Build
+  1. Create the file ```.env.prod ```
+  2. Fill the production environment variables
+  3. Create the new image
+  ```
+  docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+  ```
   ## Used Stack
     * MongoDB
     * NestJs 
