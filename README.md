@@ -25,8 +25,7 @@
   ```
   yarn start:dev
   ```
-
-  5. Load seed data on database
+  8. Load seed data on database
   ```
   http://localhost:3000/seed
   ```
